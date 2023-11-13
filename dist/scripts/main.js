@@ -1,0 +1,1 @@
+document.getElementById("form-cadastro").addEventListener("submit",function(e){e.preventDefault();var e=document.getElementById("nome").value,t=document.getElementById("numero").value,n=document.getElementById("serie").value;e&&t&&n&&(document.querySelector(".sucesso").style.display="block")});

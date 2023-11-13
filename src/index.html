@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Grunt</title>
+    <link rel="stylesheet" href="../dist/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+                <h1>Cadastro da prova final</h1>
+        </header>
+        <form  id="form-cadastro" class="edicao">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" required>
+            <label for="numero">Número</label>
+            <input type="number" id="numero" required>
+            <label for="serie">Série</label>
+            <input type="text" id="serie" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div class="sucesso edicao">
+            <h2><span id="">Cadastro efetuado com sucesso!</span></h2>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
